@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "plotly-dash"
+version = "0.1.0"
+description = ""
+authors = ["Stas Polos <polos_ss@groupbwt.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+dash = "^2.15.0"
+pandas = "^2.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
